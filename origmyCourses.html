@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="pisaylogo.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>    
+  <title>My Courses</title>
+  <style>
+      body {
+        background-color: #de7669;
+      }
+      #headur {
+        background-color: #A63B32;
+      }
+      #bio, #chem, #comsci, #eng, #fili, #health, #hr, #math, #pe, #physics, #socsci, #stat {
+        background-color: #D75849;
+      }
+      h1 {
+        text-align: center;
+      }
+      th, tr, td {
+        border-collapse: collapse;
+        border: 2px solid white;
+      }
+      th {
+        background-color: white;
+        color: #D75849;
+        text-align: center;
+        padding: 7.5px;
+      }
+      tr, td {
+        background-color: #D75849;
+        color: white;
+        text-align: right;
+        padding: 20px;
+      }
+	  #logo {
+		width:19rem;
+	   }
+	   footer{
+    padding: 4vw;
+    background-color: #a63b32;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    padding-top: 10px;
+	display: flex; 
+	justify-content: center;
+}
+footer p{
+    color: #7b8a7e;
+	font-size: 20px;
+}
+footer .copyright{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+  </style>
+</head>
+<body class="container-fluid">
+  <header class="p-2" id="headur">
+    <div class="container-fluid">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <img src="https://clc.pshs.edu.ph/images/headers/2022December_Header.png" id="logo" alt="logo">
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="origdashboard.html" class="nav-link px-4 text-white">Home</a></li>
+            <li><a href="origdashboard.html" class="nav-link px-4 text-white">Dashboard</a></li>
+            <li><a href="origmyCourses.html" class="nav-link px-4 text-white">My Courses</a></li>
+			<li><a href="authors.html" class="nav-link px-4 text-white">About</a></li>
+          </ul>
+      </div>
+    </div>
+  </header>
+  <div class="container-fluid media-breakpoint-only(xs)">
+    <h2 class="text-black m-auto my-3 fs-3">Course Overview</h2>
+      <div class="bg-white py-5 rounded row">
+        <div class="col-sm-3">
+          <div class="text-white mx-4 p-3 rounded" id="bio">
+            <img src="https://img.freepik.com/free-vector/flat-biotechnology-illustration_23-2148889379.jpg" alt="Biology 3" style="width: 100%">
+            <div>Biology 3</div>
+          </div>
+          <div class="text-white mx-4 my-5 p-3 rounded" id="fili">
+            <img src="https://img.freepik.com/free-vector/hand-drawn-filipino-character-collection_23-2149425152.jpg" alt="Filipino 3" style="width: 100%">
+            <div>Filipino 3</div>
+          </div>
+          <div class="text-white mx-4 my-5 p-3 rounded" id="pe">
+            <img src="https://img.freepik.com/free-vector/stretching-exercises-concept-illustration_114360-8922.jpg" alt="Physical Education 3" style="width: 100%">
+            <div>Physical Education 3</div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="text-white mx-4 p-3 rounded" id="chem">
+            <img src="https://img.freepik.com/free-vector/researchers-working-science-lab-together_23-2148486108.jpg" alt="Chemistry 3" style="width: 100%">
+            <div>Chemistry 3</div>
+          </div>
+          <div class="text-white mx-4 my-5 p-3 rounded" id="health">
+            <img src="https://img.freepik.com/free-vector/teacher-students-wearing-face-mask-class_23-2148688964.jpg" alt="Health 3" style="width: 100%">
+            <div>Health 3</div>
+          </div>
+          <div class="text-white mx-4 my-5 p-3 rounded" id="physics">
+            <img src="https://img.freepik.com/free-photo/blackboard-inscribed-with-scientific-formulas-calculations_1150-19413.jpg" alt="Physics 3" style="width: 100%">
+            <div>Physics 3</div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="text-white mx-4 p-3 rounded" id="comsci">
+            <img src="https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg" alt="Computer Science 3" style="width: 100%">
+            <div>Computer Science 3</div>
+          </div>
+          <div class="text-white mx-4 my-5 p-3 rounded" id="hr">
+            <img src="https://img.freepik.com/free-vector/empty-school-class-background_52683-47680.jpg" alt="Homeroom 3" style="width: 100%">
+            <div>Homeroom 3</div>
+          </div>
+          <div class="text-white mx-4 my-5 p-3 rounded" id="socsci">
+            <img src="https://img.freepik.com/free-photo/book-library-with-open-textbook_1150-5921.jpg" alt="Social Science 3" style="width: 100%">
+            <div>Social Science 3</div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="text-white mx-4 p-3 rounded" id="eng">
+            <img src="https://img.freepik.com/free-vector/english-teacher-concept-illustration_114360-7477.jpg" alt="English 3" style="width: 100%">
+            <div>English 3</div>
+          </div>
+          <div class="text-white mx-4 my-5 p-3 rounded" id="math">
+            <img src="https://img.freepik.com/free-vector/happy-students-learning-math-college-school-isolated-flat-illustration_74855-10799.jpg" alt="Mathematics 3" style="width: 100%">
+            <a href="math.html" class="text-white ">Mathematics 3</a>
+          </div>
+          <div class="text-white mx-4 my-5 p-3 rounded" id="stat">
+            <img src="https://img.freepik.com/free-vector/people-analyzing-growth-charts_23-2148866843.jpg" alt="Statistics 3" style="width: 100%">
+            <div>Statistics 3</div>
+          </div>
+        </div>
+      </div>
+  </div><br>
+  <footer>
+      <div class="footer-copyright text-center py-3">
+          <p>© 2023 Copyright: CS3 Q2 Project - Group 4 </p>
+      </div>
+  </footer>
+</body>
+</html>
